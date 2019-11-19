@@ -13,13 +13,13 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # training data
-dataset_train = pd.read_csv('Dane_treningowe_2005_2007_2011_csv.csv')
+dataset_train = pd.read_csv('Data/Dane_treningowe_2005_2007_2011_csv.csv')
 
 x_train = dataset_train[['MalTys', 'BudzM', 'BezPro', 'WspFem', 'WspObc', 'AptOs', 'PowUzM', 'BibM', 'WspSko', 'PodTys', 'OsbKM', 'WspX', 'WspY']].values
 y_train = dataset_train[['Frekwencja']].values
 
 # test data
-dataset_test = pd.read_csv('Dane_testowe_2015_csv.csv')
+dataset_test = pd.read_csv('Data/Dane_testowe_2015_csv.csv')
 
 x_test = dataset_test[['MalTys', 'BudzM', 'BezPro', 'WspFem', 'WspObc', 'AptOs', 'PowUzM', 'BibM', 'WspSko', 'PodTys', 'OsbKM', 'WspX', 'WspY']].values
 y_test = dataset_test[['Frekwencja']].values
