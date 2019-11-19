@@ -1,6 +1,7 @@
 # Deep Data Election
 Scientific research on the application of machine learning methods in predicting voter turnout based on demographic data.
-The full article about my research can be found here: https://content.sciendo.com/view/journals/pcr/pcr-overview.xml
+
+Studies have shown that attendance can be predicted with accuracy comparable to traditional surveys, which means that in the future it will be possible to replace costly and inaccurate surveys with an artificial neural network that is constantly increasing its accuracy as the amount of training data increases in subsequent years.The full article about my research can be found here: https://content.sciendo.com/view/journals/pcr/pcr-overview.xml
 
 # Data
 The network was built on the basis of the turnout data for the Polish Sejm  election received from the National Electoral Commission and the demographic data obtained from the Central Statistical Office. The demographic data used are:
