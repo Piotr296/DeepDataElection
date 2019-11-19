@@ -34,12 +34,12 @@ x_scaled_test = mms.fit_transform(x_test)
 y_scaled_test = mms.fit_transform(y_test)
 
 # ANN prediction
-model = load_model('Model_ANN.h5')
+model = load_model('Data/Model_ANN.h5')
 y_prediction = model.predict(x_scaled_test)
 mae_ANN = mean_absolute_error(y_scaled_test, y_prediction)
 
 # RFR prediction
-rfr = joblib.load('Model_RFR.pkl')
+rfr = joblib.load('Data/Model_RFR.pkl')
 y_rfr_pred = rfr.predict(x_scaled_test)
 y_rfr_pred = y_rfr_pred.reshape(2477,1)
 mae_rfr = mean_absolute_error(y_scaled_test, y_rfr_pred)
