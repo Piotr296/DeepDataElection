@@ -20,7 +20,7 @@ The network was built on the basis of the turnout data for the Polish Sejm  elec
 12)	X-coordinate of the commune’s centroid
 13)	Y-coordinate of the commune’s centroid
 
-RFR and ANN training on data were from 2005, 2007, and 2011. 
+Training data were from 2005, 2007, and 2011. 
 
 # Deployment
 To run this project, install it locally
