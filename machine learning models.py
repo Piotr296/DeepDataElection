@@ -25,10 +25,10 @@ y_test = dataset_test[['Frekwencja']].values
 mms = MinMaxScaler()
 
 x_scaled_train = mms.fit_transform(x_train)
-y_scaled_train = mms.fit_transform(y_train)
+x_scaled_test = mms.transform(x_test)
 
-x_scaled_test = mms.fit_transform(x_test)
-y_scaled_test = mms.fit_transform(y_test)
+y_scaled_train = mms.fit_transform(y_train)
+y_scaled_test = mms.transform(y_test)
 
 # ANN architecture
 inputs = Input(shape=[13])
